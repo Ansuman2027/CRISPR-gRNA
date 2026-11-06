@@ -1,7 +1,7 @@
 
 """
-CRISPR gRNA Designer Tool
-by: Ansuman Gadanayak
+CRISPR gRNA 
+by Ansuman Gadanayak
 Scans a DNA sequence for SpCas9 NGG PAM sites, extracts the 20nt guide RNA sequence,
 computes GC content, and scores/filters for optimal gRNA design.
 """
