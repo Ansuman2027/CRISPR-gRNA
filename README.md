@@ -1,6 +1,6 @@
 # CRISPR-gRNA
 
-It scans DNA sequences for SpCas9 NGG PAM motifs, extracts 20nt guide RNAs on both strands, calculates GC%, and identify poly-T.
+## It scans DNA sequences for SpCas9 NGG PAM motifs, extracts 20nt guide RNAs on both strands, calculates GC%, and identify poly-T.
 <img width="1920" height="1017" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/18d28af1-c339-475b-abbc-fbee87e38c95" />
 
 ## What it does----------------
