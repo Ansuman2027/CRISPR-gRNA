@@ -5,17 +5,17 @@
 
 ## What it does----------------
 
-It Scans both the sense and antisense DNA strands for NGG PAM sites.
+.It Scans both the sense and antisense DNA strands for NGG PAM sites.
 
-Extracts the 20-nucleotide guide sequence adjacent to each PAM.
+.Extracts the 20-nucleotide guide sequence adjacent to each PAM.
 
-Calculates GC content and warns if it falls outside the optimal 40-60% range.
+.Calculates GC content and warns if it falls outside the optimal 40-60% range.
 
- Identifies sequences with poly-T tracts (TTTT), which can act as unwanted termination signals.
+ .Identifies sequences with poly-T tracts (TTTT), which can act as unwanted termination signals.
 
 ## How to use it-------------
 
-Run the script from your terminal or command prompt:
+.Run the script from your terminal or command prompt:
 
 python "CRISPR gRNA.py"
 
@@ -31,13 +31,13 @@ You can also use command-line arguments:
 
 The script prints a clean table in the terminal showing:
 
-Position and strand
+.Position and strand
 
-20nt guide sequence and PAM
+.20nt guide sequence and PAM
 
-GC percentage
+.GC percentage
 
-Evaluation (Optimal, Suboptimal GC, or Poly-T risk)
+.Evaluation (Optimal, Suboptimal GC, or Poly-T risk)
 
 ## Where it is used-------
 
